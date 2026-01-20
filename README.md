@@ -23,5 +23,7 @@ Before installing libraries, you should create a virtual environment to avoid ve
 
 4. **Install Dependencies**: 
 Once the environment is activated (you should see `(venv)` at the start of your terminal line), install the required libraries:
-pip install -r requirements.txt
+    ```
+   pip install -r requirements.txt
+   ```
 
