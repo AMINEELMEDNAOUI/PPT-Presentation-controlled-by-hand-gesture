@@ -6,13 +6,22 @@
  
  ## How to use this Project
  
- ### Installation
-1- Download the zip file or clone this repository.
+### Installation
 
-This project requires 7 libraries to run, make sure python is installed on your machine. If you don't have python installed go to their official website or follow the link to download https://www.python.org/downloads/
- <br/> <br/>
-2- Here are the libraries we'll
+1. **Clone the Project**: Download the ZIP file or clone this repository to your local machine.
 
-```
+2. **Prerequisites**: Ensure you have Python installed (version 3.10 or 3.11 is recommended). You can download it from [python.org](https://www.python.org/downloads/).
+
+3. **Create a Virtual Environment (Highly Recommended)**: 
+Before installing libraries, you should create a virtual environment to avoid version conflicts and path errors.
+
+* **Windows (PowerShell):**
+    ```powershell
+    python -m venv venv
+    .\venv\Scripts\activate
+    ```
+
+4. **Install Dependencies**: 
+Once the environment is activated (you should see `(venv)` at the start of your terminal line), install the required libraries:
 pip install -r requirements.txt
 ```
